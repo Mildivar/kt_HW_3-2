@@ -1,6 +1,5 @@
 fun main() {
-
-    payment(76_000_00,"Maestro",140_000_00)
+    payment(76_000_00, "Maestro", 140_000_00)
 }
 
 fun payment(
