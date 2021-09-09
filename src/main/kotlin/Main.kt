@@ -1,19 +1,19 @@
-fun main() {
-    payment(76_000_00, "Maestro", 140_000_00)
-}
+//fun main() {
+//    payment(76_000_00, "Maestro", 140_000_00)
+//}
 
 fun payment(
     amountOfMoney: Int,
-    cardType: String = "VkPay",
-    previousPayments: Int = 0,
+    cardType: String/* = "VkPay"*/,
+    previousPayments: Int/* = 0*/,
     noCommissionAction: Int = 75_000_00,
     minimumTax: Int = 35_00,
     maxDayCardPayment: Int = 150_000_00,
     maxDayVKPayment: Int = 15_000_00,
     maxMonthCardPayment: Int = 600_000_00,
     maxMonthVKPayment: Int = 40_000_00,
-) {
-    val finalPayment: Double
+): Int {
+    var finalPayment: Double = 0.0
     when (cardType) {
         "Maestro", "Mastercard" -> when {
             previousPayments + amountOfMoney > maxMonthCardPayment -> println("Превышен месячный лимит")
@@ -52,7 +52,9 @@ fun payment(
             }
         }
     }
+    return finalPayment.toInt()
 }
+
 
 
 

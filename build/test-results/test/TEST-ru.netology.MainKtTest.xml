@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.MainKtTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-09-09T09:33:34" hostname="MILDIVAR-NOTE" time="0.038">
+  <properties/>
+  <testcase name="payment_MastercardOrMaestroMaxMonthlyPayment" classname="ru.netology.MainKtTest" time="0.027"/>
+  <testcase name="payment_VisaOrMirMinimumTax" classname="ru.netology.MainKtTest" time="0.003"/>
+  <testcase name="payment_VkMaxDailyPayment" classname="ru.netology.MainKtTest" time="0.0"/>
+  <testcase name="payment_VkMaxMonthlyPayment" classname="ru.netology.MainKtTest" time="0.0"/>
+  <testcase name="payment_MastercardOrMaestroNoCommission" classname="ru.netology.MainKtTest" time="0.0"/>
+  <testcase name="payment_MastercardOrMaestroWithCommission" classname="ru.netology.MainKtTest" time="0.001"/>
+  <testcase name="payment_VisaOrMirWithCommission" classname="ru.netology.MainKtTest" time="0.0"/>
+  <testcase name="payment_VisaOrMirMaxDailyPayment" classname="ru.netology.MainKtTest" time="0.001"/>
+  <testcase name="payment_VisaOrMirMaxMonthlyPayment" classname="ru.netology.MainKtTest" time="0.0"/>
+  <testcase name="payment_MastercardOrMaestroMaxDailyPayment" classname="ru.netology.MainKtTest" time="0.001"/>
+  <testcase name="payment_Vk" classname="ru.netology.MainKtTest" time="0.0"/>
+  <system-out><![CDATA[Превышен месячный лимит
+Сумма перевода с учётом минимальной комиссии: 115.0 руб.
+Превышен суточный лимит
+Превышен месячный лимит
+Сумма перевода: 70000.0 руб.
+Сумма перевода с учётом комиссии и процентов: 149080.0 руб.
+Сумма перевода с учётом комиссии: 138750.0 руб.
+Превышен суточный лимит
+Превышен месячный лимит
+Превышен суточный лимит
+Сумма перевода: 15000.0 руб.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
