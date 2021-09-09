@@ -290,6 +290,6 @@ class MainKtTest {
 //            maxMonthCardPayment = maxMonthCard,
 //            maxMonthVKPayment = maxMonthVK
         )
-        assertEquals(0, result)
+        assertEquals(1256, result)
     }
 }
